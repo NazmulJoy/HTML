@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h3>form 1: Registration</h3>
+    <form action="">
+      Name: <br />
+      <input type=" name="full name" placeholder="Enter your fullname"><br />
+      <br />
+      Address: <br />
+      <textarea
+        name="address"
+        id=""
+        cols="25"
+        rows="5"
+        placeholder="Enter your address"
+      ></textarea>
+      <br />
+      Gender: <br />
+      Male: <input type="radio" name="gender" /> Female:
+      <input type="radio" name="gender" />
+      <br />
+      District:
+      <select name="district">
+        <option value="Dhaka">Dhaka</option>
+        <option value="Barishal">Barishal</option>
+      </select>
+      <br />
+      <input type="submit" name="submit" value="Send Data" />
+    </form>
+    <hr />
+
+    <h3>Form:2 login</h3>
+    <form action="">
+      <input type="Email" placeholder="Enter email" /> <br />
+      <input type="Password" placeholder="Enter password" /> <br />
+      <input type="Submit" value="LOGIN" />
+    </form>
+    <hr />
+    <h3>Form:3 sign up</h3>
+    <form action="">
+      Name: <br />
+      <input type=" name="full name" placeholder="Enter your fullname"><br />
+      Gender: <br />
+      Male: <input type="radio" name="gender" /> Female:
+      <input type="radio" name="gender" /> <br />
+      Date of Birth: <br />
+      <input type="date" /> <br />
+      District: <br />
+      <select name="district">
+        <option value="Dhaka">Dhaka</option>
+        <option value="Barishal">Barishal</option>
+      </select>
+      <br />
+      Password: <br />
+      <input type="Password" placeholder="Enter password" /> <br />
+      Repeat Password: <br />
+      <input type=" Repeat Password" placeholder="Enter Repeat password" />
+      <br />
+      <input type="checkbox" /> Terms & Condition: <br />
+      <input type="Submit" value="LOGIN" />
+      <input type="Reset" />
+    </form>
+    <h2>form 4</h2>
+    <form action="">
+      <fieldset>
+        <legend>login infromation</legend>
+        <input type="email" /><br />
+        <input type="Password" name="Password" /><br />
+        <input type="Password" name="Repeat passsword" /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>contact information</legend>
+        <input type="text" name="name" /><br />
+        <input type="number" name="phone" /><br />
+        <textarea name="address" id="" cols="30" rows="10"></textarea>
+      </fieldset>
+      <br />
+      <input type="submit" />
+    </form>
+    <hr />
+    <h3>Form 5</h3>
+    <form action="">
+      <input type="text" name="fullname" placeholder="Enter your name" /> <br />
+      <input type="number" name="Age" placeholder="Enter age" /> <br />
+      <input
+        type="text"
+        name="Phone number"
+        placeholder="Enter your phone number"
+      />
+      <br />
+      <textarea
+        name="Address"
+        cols="30"
+        rows="10"
+        placeholder="Enter Address"
+      ></textarea>
+      <br />
+      <label for="">Places you want to visit</label><br />
+      <select name="Places" multiple>
+        <option value="">Select your destination</option>
+        <optgroup label="Dhaka">
+          <option value="">Lalbagh fort</option>
+          <option value="">Ahsan manjil</option>
+          <option value="">Sohorawardi uddan</option>
+        </optgroup>
+        <optgroup label="Chittagong">
+          <option value="">Ethnological Museum</option>
+          <option value="">Chittagong War Cemetery</option>
+          <option value="">Chandanpura Masjid</option>
+        </optgroup>
+      </select>
+    </form>
+
+    <br /><br /><br /><br /><br /><br />
+  </body>
+</html>

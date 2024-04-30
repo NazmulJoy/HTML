@@ -1,0 +1,14 @@
+.menu {
+  width: 20%;
+  height: auto;
+  float: left;
+  background-color: aqua;
+  text-align: center;
+}
+.content {
+  float: left;
+  background-color: bisque;
+  width: 20%;
+  height: auto;
+  text-align: center;
+}
